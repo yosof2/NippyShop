@@ -1,0 +1,254 @@
+/* Media Query for mobile **************************************************/
+@media (max-width: 1200px) {
+    /* + header */
+    header{
+        height: 7vh;
+    }
+    header a{
+        display: none; 
+    }
+    header .fa-bars{
+        display: block;
+        font-size: larger;
+        font-weight: 900;
+    }
+    /* - header */
+
+    /* + main */
+    main{
+        display: none;
+    }
+    /* - main */
+
+    /* + article */
+    article .container{
+        flex-direction: column-reverse;
+    }
+    article .article-img{
+        position: relative;
+        margin-bottom: 15rem;
+    }
+    article .article-img .img-1 ,article .article-img  .img-2{
+        width: 200px;
+    }
+    article .article-img .img-2{
+       position: absolute;
+       left: -5vh;
+       top: 22vh;
+    }
+    article .article-img .img-1{
+        position: absolute;
+        left: -8vh;
+        top: 5vh;
+    }
+    /* - article */
+
+    /* + figure */
+    figure{
+        margin: 3rem 0;
+    }
+    figure h2{
+        font-size: x-large;
+    }
+    figure h5{
+        font-size: x-small;
+    }
+    .photo {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        flex-direction: column;
+    }
+      .left-img,
+      .top-left-img,
+      .top-right-img,
+      .butt-right-img,
+      .butt-left-img {
+        flex-grow: 1;
+        height: 40vh;
+    }
+    /* - figure */
+
+    /* + section */
+    section{
+        margin-top: 1rem;
+    }
+    section .container{
+        height: 15vh;
+    }
+    section h6{
+        font-size: 7px;
+        font-weight: 200;
+        padding: 0.3rem 0;
+    }
+    section h3{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /* - section */
+
+    /* - aside */
+    aside{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    aside .right{
+        min-height: 57vh;
+        width: 100%;
+    }
+    aside .left-photo{
+        width: 100%;
+        min-height: 50vh;
+    }
+    aside input{
+        position: relative;
+    }
+    aside label{
+        position: absolute;
+        right: 15%;
+        width: 25%;
+    }
+    /* - aside */
+
+    /* + figcaption */
+    figcaption{
+        height: 16vh;
+        display: flex;
+        align-items: center;
+    }
+    figcaption .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    figcaption .container img{
+        width: 7vh;
+    }
+    /* - figcaption */
+
+    /* + footer */
+    footer .container .up{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    .soical-meida img{
+        margin-top: 1vh;
+    }
+    /* - footer */
+}
+
+/* Media Query for Ipad **********************************************************/
+@media (min-width: 768px) and (max-width: 1200px){
+    /* + article */
+    article .article-img .img-1 ,article .article-img  .img-2{
+        width: 240px;
+    }
+    article .article-img .img-2{
+    position: absolute;
+    left: -2vh;
+    top: 30vh;
+    }
+    article .article-img .img-1{
+        position: absolute;
+        left: -8vh;
+        top: 5vh;
+    }
+    /* - article */
+
+    /* + figure */
+    .photo {
+        display: grid;
+ 
+        grid-template: repeat(4,1fr)/ 1fr 1fr;
+    }
+      .left-img,
+      .top-left-img,
+      .top-right-img,
+      .butt-right-img,
+      .butt-left-img {
+        flex-grow: 1;
+        height: 60vh;
+    }
+    .left-img{
+        grid-column: 1/3;
+        grid-row: 1/3;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .top-left-img{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        height: 30vh;
+    }
+    .top-right-img{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        height: 30vh;
+    }
+    .butt-right-img{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        height: 30vh;
+    }
+    .butt-left-img{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        height: 30vh;
+    }
+    .left-img{
+        min-height: 200px;
+    }
+    /* - figure */
+
+    /* - aside */
+    aside input{
+        position: relative;
+    }
+    aside label{
+        position: absolute;
+        right: 30%;
+        width: 15%;
+    }
+    /* - aside */
+
+    /* + section */
+    /* - section */
+
+    /* + footer */
+    footer .container .up{
+        flex-direction: row;
+    }
+    /* - footer */
+}
+
+/* Media Query for screen FHD *********************************************************/
+@media (min-width: 1600px){
+ /* + header */
+ header{
+    height: 8vh;
+}
+/* - header */
+
+/* + main */
+main{
+    height: 95vh;
+}
+/* - main */
+
+/* + section */
+section .container{
+    height: 23vh;
+}
+/* - section */
+.left-img{
+    min-height: 200px;
+}
+
+/* + figcaption */
+figcaption .container img{
+    width: 10vh;
+}
+/* - figcaption */
+}

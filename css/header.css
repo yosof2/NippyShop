@@ -1,0 +1,34 @@
+/* start header section  */
+header{
+    background-color:var(--mainColor);
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    box-shadow: 1px 1px 10px #30303065;
+}
+header a{
+    color: var(--sectionColor-1);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: x-small;
+    font-family: 'Montserrat';
+}
+header a:hover{
+    border-bottom: solid 1px var(--sectionColor);
+    transition: 0.5s;
+}
+header nav{
+    display: flex;
+    gap: 2.2rem;
+}
+header .fa-bars{
+    display: none;
+}
+header .logo{
+    filter: drop-shadow(0 0 2px var(--font-h4-color));
+}
+/* end header section  */

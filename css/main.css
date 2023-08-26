@@ -1,0 +1,9 @@
+/* start main section */
+main{
+    background-image: url(../img/main-img/back-ground-img.png);
+    height: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* end main section */

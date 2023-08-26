@@ -1,0 +1,44 @@
+/* start article section  */
+article {
+    background-color: #F3F0DD;
+    height: auto;
+    width: 100%;
+}
+article .container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+article .parag{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 100px 0 50px;
+}
+article h4{
+    width: 80%;
+    font-weight: 600;
+    font-size: large;
+    color: var(--font-h4-color);
+}
+article p{
+    width: 80%;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--font-p-color);
+    word-spacing: 5px;
+}
+article .article-img img{
+    width: 300px;
+    filter: drop-shadow(3px 4px 5px #27272757);
+}
+/* photo location */
+article .article-img .img-2{
+    transform: translate(-5%, -5%);
+}
+article .article-img .img-1{
+    transform: translate(-40%, 40%);
+} 
+/* end article section */

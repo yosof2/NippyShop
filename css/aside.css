@@ -1,0 +1,64 @@
+/* start aside section */
+aside{
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+}
+aside .right{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--mainColor);
+    min-height: 100vh;
+    width: 45%;
+}
+aside .left-photo{
+    background-image: url(../img/aside-img/aside-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    overflow: hidden;
+    width: 55%;
+}
+aside .input{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+aside h4{
+    width: 80%;
+    font-weight: 600;
+    font-size: large;
+    color: var(--font-h4-color);
+}
+aside p{
+    width: 80%;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--font-p-color);
+    word-spacing: 5px;
+}
+aside input{
+    padding: 0.8rem 1.6rem;
+    width: 70%;
+    border-radius: 20px;
+    border: 1px solid var(--sectionColor);
+    position: relative;
+}
+aside input:focus{
+    border: 1px solid var(--sectionColor);
+}
+aside label{
+    position: absolute;
+    right: 14%;
+    padding: 0.8rem 1.6rem;
+    width: 8%;
+    border-radius:0 20px 20px 0;
+    background-color: #A4794E;
+    color: var(--white-color);
+    font-weight: 400;
+}
+aside label:hover{
+    background-color: #7d5023;
+}
+/* end aside section */

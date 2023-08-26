@@ -1,0 +1,16 @@
+/* start figcaption section */
+figcaption{
+    background-color: var(--backGroundColor);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+figcaption .container{
+    display: flex;
+    justify-content: space-around;
+}
+figcaption .container img{
+    width: 15vh;
+}
+/* end figcaption section */

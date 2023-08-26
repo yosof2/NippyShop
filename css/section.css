@@ -1,0 +1,27 @@
+/* start section */
+section .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35vh;
+}
+section {
+    background-color: var(--sectionColor);
+    width: 100%;
+    text-align: center;
+    color: var( --white-color);
+    box-shadow:0 0 5px 4px var(--font-p-color);
+}
+section h6 , section h3{
+    font-family: 'Heebo';
+}
+section h6{
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0.3rem 0;
+}
+section h3{
+    font-size: 35px;
+    font-weight: 800;
+}
+/* end section */
